@@ -6,8 +6,10 @@ function App() {
     //BEM class naming convention
     <div className="app">
       <p>
-        YouTube Cloneeee!!!
-        </p>
+        {/* Header -> <Header/> */}
+        {/*Sidebar -> <Sidebar /> */}
+        {/*RecommendedVideos <RecommendedVideos /> */}
+      </p>
 
     </div>
   );
