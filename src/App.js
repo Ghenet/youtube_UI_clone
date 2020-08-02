@@ -3,7 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    //BEM class naming convention
+    <div className="app">
       <p>
         YouTube Cloneeee!!!
         </p>
