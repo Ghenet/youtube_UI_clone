@@ -3,6 +3,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import VideoCallIcon from '@material-ui/icons/VideoCall';
 import AppsIcon from '@material-ui/icons/Apps';
+import NotificationsIcon from '@material-ui/icons/Notifications';
 
 function Header() {
     return (
@@ -13,6 +14,7 @@ function Header() {
             <SearchIcon />
             <VideoCallIcon />
             <AppsIcon />
+            <NotificationsIcon />
         </div>
     )
 }
