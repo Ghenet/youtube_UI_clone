@@ -2,6 +2,7 @@ import React from 'react';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import VideoCallIcon from '@material-ui/icons/VideoCall';
+import AppsIcon from '@material-ui/icons/Apps';
 
 function Header() {
     return (
@@ -11,6 +12,7 @@ function Header() {
             <input type="text" />
             <SearchIcon />
             <VideoCallIcon />
+            <AppsIcon />
         </div>
     )
 }
