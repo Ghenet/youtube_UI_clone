@@ -1,11 +1,10 @@
 import React from 'react';
-import HomeIcon from '@material-ui/icons/Home';
 import './SidebarRow.css';
 
-function SidebarRow({ title }) {
+function SidebarRow({ Icon, title }) {
     return (
         <div className="sidebarRow">
-            <HomeIcon />
+            <Icon />
             <h5>{title}</h5>
         </div>
     )
