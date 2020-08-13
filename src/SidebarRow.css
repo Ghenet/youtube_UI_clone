@@ -14,3 +14,9 @@
     font-size: 12px;
     font-weight: 500;
 }
+
+.sidebarRow:hover {
+    background-color: lightgray;
+    cursor: pointer;
+
+}
