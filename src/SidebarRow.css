@@ -23,3 +23,6 @@
 .sidebarRow:hover > .sidebarRow__icon {
     color: red;
 }
+.sidebarRow:hover > .sidebarRow__title {
+    font-weight: bold;
+}
