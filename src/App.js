@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from './Header';
+import Sidebar from "./Sidebar";
+import RecommendedVideos from "./RecommendedVideos";
 import './App.css';
 
 function App() {
@@ -7,12 +9,11 @@ function App() {
     //BEM class naming convention
     <div className="app">
       <Header />
-      <p>
-        {/* Header -> <Header/> */}
-        {/*Sidebar -> <Sidebar /> */}
-        {/*RecommendedVideos <RecommendedVideos /> */}
-      </p>
+      <div className="app__page">
+        <Sidebar />
+        <RecommendedVideos />
 
+      </div>
     </div>
   );
 }
