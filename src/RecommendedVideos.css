@@ -1,6 +1,10 @@
 .recommendedVideos {
-    flex: 0.8; /* gives the recommendedVideos 80% of the container*/
-    background-color: #f9f9f9;
-    padding: 40px 20px;
-    padding-bottom: 0;
+  flex: 0.8; /* gives the recommendedVideos 80% of the container*/
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  padding-bottom: 0;
+}
+.recommendedVideos > h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
 }
