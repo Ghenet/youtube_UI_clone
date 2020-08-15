@@ -7,3 +7,6 @@
   color: #606060;
   font-size: xx-small !important;
 }
+.searchPage__filter > h2 {
+  margin-left: 10px;
+}
