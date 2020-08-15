@@ -1,6 +1,7 @@
 import React from "react";
 import "./SearchPage.css";
 import TuneOutlinedIcon from "@material-ui/icons/TuneOutlined";
+import ChannelRow from "./ChannelRow";
 
 function SearchPage() {
   return (
