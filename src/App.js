@@ -1,9 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import RecommendedVideos from "./RecommendedVideos";
 import "./App.css";
+import SearchPage from "./SearchPage";
 
 function App() {
   return (
@@ -12,8 +13,11 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/search">
-            <h1>Search PAge</h1>
+          <Route path="/search/:searchTerm">
+            <div className="app__page">
+              <Sidebar />
+              <SearchPage />
+            </div>
           </Route>
           <Route path="/">
             <div className="app__page">
