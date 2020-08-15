@@ -9,6 +9,7 @@ function SearchPage() {
         <TuneOutlinedIcon />
         <h2>FILTER</h2>
       </div>
+      <hr />
     </div>
   );
 }
