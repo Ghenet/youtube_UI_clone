@@ -2,6 +2,7 @@ import React from "react";
 import "./SearchPage.css";
 import TuneOutlinedIcon from "@material-ui/icons/TuneOutlined";
 import ChannelRow from "./ChannelRow";
+import VideoRow from "./VideoRow";
 
 function SearchPage() {
   return (
@@ -17,8 +18,11 @@ function SearchPage() {
         verified
         subs="11.2M"
         noOfVideos={400}
-        description="Underated Best singer"
+        description="Underrated Best singer"
       />
+
+      <hr />
+      <VideoRow />
     </div>
   );
 }
