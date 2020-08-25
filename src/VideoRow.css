@@ -22,6 +22,10 @@
   color: #606060;
 }
 
+.videoRow__subs {
+  background-color: lightgray;
+  padding: 2px;
+}
 .videoRow__subsNumber {
   font-weight: bolder;
   color: rgb(84, 157, 211);
