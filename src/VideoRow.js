@@ -18,7 +18,7 @@ function VideoRow({
         <p>
           {channel} . {subs} Subscribers {views} . {timestamp}
         </p>
-        <p>{description}</p>
+        <p className="videoRow__description">{description}</p>
       </div>
     </div>
   );
