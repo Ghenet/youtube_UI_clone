@@ -22,7 +22,15 @@ function SearchPage() {
       />
 
       <hr />
-      <VideoRow />
+      <VideoRow
+        views="20.1M"
+        subs="12M"
+        description="Nice to Meet ya is a cool song about how not nice it is to meet ya"
+        timestamp="6 months ago"
+        channel="Clever Programmer"
+        title="Nice to meet ya"
+        image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSK7pjgwWBy7Ldydffx6k4siBY4PzhD5zUHHw&usqp=CAU"
+      />
     </div>
   );
 }
