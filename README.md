@@ -1,7 +1,7 @@
 
 ## This is a YouTube UI only clone app using react.
 
-# https://youtube-ui-clone20.netlify.app/search/
+# https://youtube-ui-clone20.netlify.app
 
 
 
